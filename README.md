@@ -12,3 +12,6 @@ python app.py get_tpl --customer="Иван" --order_id="123" --дата_зака
 
 Для шаблона "Проба":
 python app.py get_tpl --f_name1="test@example.com" --f_name2="2024-03-15" --extra_field="любое значение"
+
+Проверка на несовпадение с шаблоном:
+python app.py get_tpl --field_1="12345" --field_2="67890"
